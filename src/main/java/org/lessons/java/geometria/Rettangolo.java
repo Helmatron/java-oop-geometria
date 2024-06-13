@@ -20,15 +20,15 @@ public class Rettangolo {
 
 		scanner.close();
 	}
-	
+
 	// Creo un metodo che ritorna il valore di calcolo dell'area
 	public int calcolaArea() {
-		return base * altezza;
+		return this.base * this.altezza;
 	}
 
 	// Creo un metodo che ritorna il valore di calcolo dell perimetro
 	public int calcolaPerimetro() {
-		return (base * 2) + (altezza + 2);
+		return (this.base * 2) + (this.altezza + 2);
 	}
 
 	/*
